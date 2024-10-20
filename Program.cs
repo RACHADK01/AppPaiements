@@ -19,5 +19,18 @@ internal class Program
 
         paiementPaypal1.AfficherDetails();
         paiementPaypal2.AfficherDetails();
+
+        // Création de l'utilisateur
+        Utilisateur utilisateur = new Utilisateur("Jean Martial");
+
+        // Ajout des paiements à l'utilisateur
+        utilisateur.AjouterPaiement(paiement1);
+        utilisateur.AjouterPaiement(paiement1);
+        utilisateur.AjouterPaiement(paiement3);
+        utilisateur.AjouterPaiement(paiementPaypal1);
+        utilisateur.AjouterPaiement(paiementPaypal2);
+
+        // Affichage des informations de l'utilisateur et des paiements
+        utilisateur.AfficherInfos();
     }
 }
