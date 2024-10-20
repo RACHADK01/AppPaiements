@@ -25,7 +25,7 @@ internal class Program
 
         // Ajout des paiements à l'utilisateur
         utilisateur.AjouterPaiement(paiement1);
-        utilisateur.AjouterPaiement(paiement1);
+        utilisateur.AjouterPaiement(paiement2);
         utilisateur.AjouterPaiement(paiement3);
         utilisateur.AjouterPaiement(paiementPaypal1);
         utilisateur.AjouterPaiement(paiementPaypal2);
